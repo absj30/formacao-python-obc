@@ -5,14 +5,14 @@ cidade = "Maringá"
 
 # pessoa = {} # dict() -> também pode ser usado para criar um dicionário vazio
 
-# também pode-se declarar da seguite forma:
+# também pode-se declarar da seguinte forma:
 # pessoa = dict(nome="Ailton",idade=25)
 pessoa = {"nome": "Ailton", "idade": 25, "email": "ailton@email.com", "cidade": "Maringá"}
 
 # ao acessar uma chave que não existe dá erro
 # print(pessoa["documento"])
 
-""" # pessoa.get("chave") -> acessar chave sem a possibilidade de erro
+# pessoa.get("chave") -> acessar chave sem a possibilidade de erro
 print(pessoa.get("documento")) # -> retorna None
 # pessoa.get("chave", "alt") -> caso a chave não existir, retorna o alt
 print(pessoa.get("chave", "N/A"))
@@ -28,7 +28,7 @@ print(pessoa)
 # del pessoa["company"]
 # remover usando pop() -> este retorna o elemento removido
 pessoa.pop("idade")
-print(pessoa) """
+print(pessoa)
 
 # =============================================================
 # para acessar as chaves (keys) que tem no dicionário:

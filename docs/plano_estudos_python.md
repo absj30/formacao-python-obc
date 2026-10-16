@@ -1,6 +1,6 @@
 # Plano de Estudos Python — versão concentrada
 
-Base: curso Onebitcode (Passo 1 ignorado). Das 63,7 h de vídeo, o plano usa cerca de 22 h no núcleo.
+Base: curso Onebitcode (Passo 1 ignorado). Das 63,7 h de vídeo, o plano usa cerca de 23,5 h (núcleo + projeto).
 Já concluídos, portanto fora do plano: Introdução, Fundamentos e as 4 primeiras aulas de Estrutura de Dados.
 
 ## Como cada sessão funciona
@@ -26,13 +26,13 @@ Sessão = 60 a 90 min. Ritmo sugerido: 3 a 4 sessões por semana, cerca de 5 sem
 | 7 | Arquivos e requisições HTTP/API | Ler um CSV e consultar uma API pública |
 | **Prova da Fase 1** | 15 questões e 3 problemas de código, sem consulta | Nota mínima de 80% |
 
-## Fase 2 — Python aplicado a dados e ao seu trabalho (≈ 14 h)
+## Fase 2 — Python aplicado a dados e ao seu trabalho (≈ 14,7 h)
 
 Os conteúdos de maior valor para quem investiga chamados no banco.
 
 | Sessão | Conteúdo | Teste de comprovação |
 |---|---|---|
-| 8 a 10 | Integração com Banco de Dados (SQL), 3 h: conectar, consultar, inserir, tratar erros | Script que conecta ao banco, roda uma consulta e exporta o resultado |
+| 8 a 10 | Integração com Banco de Dados (SQL), 3 h: conectar, consultar, inserir, tratar erros. O curso usa PostgreSQL; os exercícios também podem ser feitos em MySQL/MariaDB (`mysql-connector-python` ou `pymysql`), que é o banco do seu trabalho | Script que conecta ao banco, roda uma consulta e exporta o resultado |
 | 11 a 13 | Análise de dados II (Pandas), 2,4 h | Tratar um export de vendas: filtrar, agrupar, somar |
 | 14 a 16 | Automação I (Automação de Tarefas), 6 h, só as aulas de arquivos, planilhas, e-mail e pastas | Automatizar um relatório recorrente |
 | 17 a 18 | Automação II (Web Scraping e API), 3,3 h, só a parte de API/requests | Consumir uma API e salvar em planilha |

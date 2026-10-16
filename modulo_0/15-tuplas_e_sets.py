@@ -17,7 +17,7 @@ print(type(tupla2))
 """
 
 # sets são listas onde os elementos não se repetem
-# sets não podem ser ordenados, eles se auto ordenam
+# sets não têm ordem definida, então não se pode confiar na ordem em que os elementos aparecem
 # sets não podem ter um elemento acessado pelo índice (ex: numeros[0])
 nomes = {"Arthur"}
 # add -> adiciona um elemento
@@ -49,8 +49,9 @@ set2 = {3, 4, 5, 6}
 # set1.union(set2) -> serve para unir 2 sets, respeitando a natureza de possuir apenas elementos únicos
 # set1.intersection(set2) -> serve para verificar elementos comuns a ambos os sets
 # set1.difference(set2) -> serve para ver o que tem no primeiro elemento mas não tem no segundo
-resultado = set1.difference(set2)
-print(resultado)
+print(set1.union(set2))         # {1, 2, 3, 4, 5, 6}
+print(set1.intersection(set2))  # {3, 4}
+print(set1.difference(set2))    # {1, 2}
 
 # Dados com duplicatas
 emails = [
